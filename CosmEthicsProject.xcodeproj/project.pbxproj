@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20E7C91D56F7BF0A04E271F9 /* Pods_CosmEthicsProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB34F59B35B20594EE35B41 /* Pods_CosmEthicsProjectTests.framework */; };
+		4DEDD8AF7FD1B19FA98BFACA /* Pods_CosmEthicsProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B5B6397FF6DC63924522294 /* Pods_CosmEthicsProject.framework */; };
+		5E4147FF1F7C66F700CE03C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4147FE1F7C66F700CE03C5 /* AppDelegate.swift */; };
+		5E4148011F7C66F700CE03C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4148001F7C66F700CE03C5 /* ViewController.swift */; };
+		5E4148041F7C66F700CE03C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E4148021F7C66F700CE03C5 /* Main.storyboard */; };
+		5E4148061F7C66F700CE03C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E4148051F7C66F700CE03C5 /* Assets.xcassets */; };
+		5E4148091F7C66F700CE03C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E4148071F7C66F700CE03C5 /* LaunchScreen.storyboard */; };
+		5E4148141F7C66F700CE03C5 /* CosmEthicsProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4148131F7C66F700CE03C5 /* CosmEthicsProjectTests.swift */; };
+		5E4148261F7C6E4900CE03C5 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4148201F7C6E4900CE03C5 /* ImageView.swift */; };
+		5E4148281F7C6E4900CE03C5 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4148221F7C6E4900CE03C5 /* ProductView.swift */; };
+		5E41482E1F7D0E4300CE03C5 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E41482D1F7D0E4300CE03C5 /* ProductCell.swift */; };
+		5E4148321F7D0F1100CE03C5 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4148311F7D0F1100CE03C5 /* Product.swift */; };
+		5E4148341F7D164500CE03C5 /* RESTAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4148331F7D164500CE03C5 /* RESTAPI.swift */; };
+		5E4148621F7D3B8500CE03C5 /* ConcernElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4148611F7D3B8500CE03C5 /* ConcernElements.swift */; };
+		5E4148641F7D603A00CE03C5 /* safe.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E4148631F7D603A00CE03C5 /* safe.png */; };
+		5E4148661F7D61E900CE03C5 /* alert.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E4148651F7D61E900CE03C5 /* alert.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E4148101F7C66F700CE03C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E4147F31F7C66F700CE03C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E4147FA1F7C66F700CE03C5;
+			remoteInfo = CosmEthicsProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E24C96EAAF8E64909A5C15D /* Pods-CosmEthicsProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CosmEthicsProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CosmEthicsProjectTests/Pods-CosmEthicsProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E4147FB1F7C66F700CE03C5 /* CosmEthicsProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CosmEthicsProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E4147FE1F7C66F700CE03C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E4148001F7C66F700CE03C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E4148031F7C66F700CE03C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E4148051F7C66F700CE03C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E4148081F7C66F700CE03C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E41480A1F7C66F700CE03C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E41480F1F7C66F700CE03C5 /* CosmEthicsProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CosmEthicsProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E4148131F7C66F700CE03C5 /* CosmEthicsProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmEthicsProjectTests.swift; sourceTree = "<group>"; };
+		5E4148151F7C66F700CE03C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E4148201F7C6E4900CE03C5 /* ImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		5E4148221F7C6E4900CE03C5 /* ProductView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		5E41482D1F7D0E4300CE03C5 /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductCell.swift; path = ../ProductCell.swift; sourceTree = "<group>"; };
+		5E4148311F7D0F1100CE03C5 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Product.swift; path = ../Product.swift; sourceTree = "<group>"; };
+		5E4148331F7D164500CE03C5 /* RESTAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESTAPI.swift; sourceTree = "<group>"; };
+		5E4148611F7D3B8500CE03C5 /* ConcernElements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcernElements.swift; sourceTree = "<group>"; };
+		5E4148631F7D603A00CE03C5 /* safe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = safe.png; sourceTree = "<group>"; };
+		5E4148651F7D61E900CE03C5 /* alert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alert.png; sourceTree = "<group>"; };
+		6443F1BA8A8ED2DB6326CEEC /* Pods-CosmEthicsProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CosmEthicsProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CosmEthicsProject/Pods-CosmEthicsProject.debug.xcconfig"; sourceTree = "<group>"; };
+		6480624CC31A5E7C05200683 /* Pods-CosmEthicsProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CosmEthicsProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-CosmEthicsProject/Pods-CosmEthicsProject.release.xcconfig"; sourceTree = "<group>"; };
+		6B5B6397FF6DC63924522294 /* Pods_CosmEthicsProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CosmEthicsProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB34F59B35B20594EE35B41 /* Pods_CosmEthicsProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CosmEthicsProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2061E03CF8A72DBD6EAD45 /* Pods-CosmEthicsProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CosmEthicsProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CosmEthicsProjectTests/Pods-CosmEthicsProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E4147F81F7C66F700CE03C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DEDD8AF7FD1B19FA98BFACA /* Pods_CosmEthicsProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E41480C1F7C66F700CE03C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E7C91D56F7BF0A04E271F9 /* Pods_CosmEthicsProjectTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E4147F21F7C66F700CE03C5 = {
+			isa = PBXGroup;
+			children = (
+				5E4147FD1F7C66F700CE03C5 /* CosmEthicsProject */,
+				5E4148121F7C66F700CE03C5 /* CosmEthicsProjectTests */,
+				5E4147FC1F7C66F700CE03C5 /* Products */,
+				982C1EB9E2A4DAEFBC0F901D /* Pods */,
+				9F462BF6758167B300280505 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5E4147FC1F7C66F700CE03C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E4147FB1F7C66F700CE03C5 /* CosmEthicsProject.app */,
+				5E41480F1F7C66F700CE03C5 /* CosmEthicsProjectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E4147FD1F7C66F700CE03C5 /* CosmEthicsProject */ = {
+			isa = PBXGroup;
+			children = (
+				5E4148691F7D671B00CE03C5 /* Resources */,
+				5E4148671F7D66A300CE03C5 /* Model */,
+				5E41481E1F7C6E4900CE03C5 /* View */,
+				5E4148681F7D66D100CE03C5 /* Controller */,
+				5E4148051F7C66F700CE03C5 /* Assets.xcassets */,
+				5E4148071F7C66F700CE03C5 /* LaunchScreen.storyboard */,
+				5E41480A1F7C66F700CE03C5 /* Info.plist */,
+			);
+			path = CosmEthicsProject;
+			sourceTree = "<group>";
+		};
+		5E4148121F7C66F700CE03C5 /* CosmEthicsProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E4148131F7C66F700CE03C5 /* CosmEthicsProjectTests.swift */,
+				5E4148151F7C66F700CE03C5 /* Info.plist */,
+			);
+			path = CosmEthicsProjectTests;
+			sourceTree = "<group>";
+		};
+		5E41481E1F7C6E4900CE03C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5E4148021F7C66F700CE03C5 /* Main.storyboard */,
+				5E4148201F7C6E4900CE03C5 /* ImageView.swift */,
+				5E4148221F7C6E4900CE03C5 /* ProductView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5E4148671F7D66A300CE03C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5E4148311F7D0F1100CE03C5 /* Product.swift */,
+				5E4148611F7D3B8500CE03C5 /* ConcernElements.swift */,
+				5E4148331F7D164500CE03C5 /* RESTAPI.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5E4148681F7D66D100CE03C5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5E41482D1F7D0E4300CE03C5 /* ProductCell.swift */,
+				5E4148001F7C66F700CE03C5 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		5E4148691F7D671B00CE03C5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5E4147FE1F7C66F700CE03C5 /* AppDelegate.swift */,
+				5E4148651F7D61E900CE03C5 /* alert.png */,
+				5E4148631F7D603A00CE03C5 /* safe.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		982C1EB9E2A4DAEFBC0F901D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6443F1BA8A8ED2DB6326CEEC /* Pods-CosmEthicsProject.debug.xcconfig */,
+				6480624CC31A5E7C05200683 /* Pods-CosmEthicsProject.release.xcconfig */,
+				2E24C96EAAF8E64909A5C15D /* Pods-CosmEthicsProjectTests.debug.xcconfig */,
+				FC2061E03CF8A72DBD6EAD45 /* Pods-CosmEthicsProjectTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F462BF6758167B300280505 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B5B6397FF6DC63924522294 /* Pods_CosmEthicsProject.framework */,
+				ECB34F59B35B20594EE35B41 /* Pods_CosmEthicsProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E4147FA1F7C66F700CE03C5 /* CosmEthicsProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E4148181F7C66F700CE03C5 /* Build configuration list for PBXNativeTarget "CosmEthicsProject" */;
+			buildPhases = (
+				205C7661463177EFAD5CE1AC /* [CP] Check Pods Manifest.lock */,
+				5E4147F71F7C66F700CE03C5 /* Sources */,
+				5E4147F81F7C66F700CE03C5 /* Frameworks */,
+				5E4147F91F7C66F700CE03C5 /* Resources */,
+				E8E477CAD50FA05633CDA405 /* [CP] Embed Pods Frameworks */,
+				7B06063D2B4F92F391E13D71 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CosmEthicsProject;
+			productName = CosmEthicsProject;
+			productReference = 5E4147FB1F7C66F700CE03C5 /* CosmEthicsProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E41480E1F7C66F700CE03C5 /* CosmEthicsProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E41481B1F7C66F700CE03C5 /* Build configuration list for PBXNativeTarget "CosmEthicsProjectTests" */;
+			buildPhases = (
+				4AD1708790EE44DC57FEFD58 /* [CP] Check Pods Manifest.lock */,
+				5E41480B1F7C66F700CE03C5 /* Sources */,
+				5E41480C1F7C66F700CE03C5 /* Frameworks */,
+				5E41480D1F7C66F700CE03C5 /* Resources */,
+				B48EE704D2F8A87044C628EF /* [CP] Embed Pods Frameworks */,
+				0696B75ED63EA6BC3B8979FA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E4148111F7C66F700CE03C5 /* PBXTargetDependency */,
+			);
+			name = CosmEthicsProjectTests;
+			productName = CosmEthicsProjectTests;
+			productReference = 5E41480F1F7C66F700CE03C5 /* CosmEthicsProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E4147F31F7C66F700CE03C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = myorg;
+				TargetAttributes = {
+					5E4147FA1F7C66F700CE03C5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					5E41480E1F7C66F700CE03C5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5E4147FA1F7C66F700CE03C5;
+					};
+				};
+			};
+			buildConfigurationList = 5E4147F61F7C66F700CE03C5 /* Build configuration list for PBXProject "CosmEthicsProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E4147F21F7C66F700CE03C5;
+			productRefGroup = 5E4147FC1F7C66F700CE03C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E4147FA1F7C66F700CE03C5 /* CosmEthicsProject */,
+				5E41480E1F7C66F700CE03C5 /* CosmEthicsProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E4147F91F7C66F700CE03C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E4148661F7D61E900CE03C5 /* alert.png in Resources */,
+				5E4148091F7C66F700CE03C5 /* LaunchScreen.storyboard in Resources */,
+				5E4148061F7C66F700CE03C5 /* Assets.xcassets in Resources */,
+				5E4148641F7D603A00CE03C5 /* safe.png in Resources */,
+				5E4148041F7C66F700CE03C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E41480D1F7C66F700CE03C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0696B75ED63EA6BC3B8979FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CosmEthicsProjectTests/Pods-CosmEthicsProjectTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		205C7661463177EFAD5CE1AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CosmEthicsProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AD1708790EE44DC57FEFD58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CosmEthicsProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B06063D2B4F92F391E13D71 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CosmEthicsProject/Pods-CosmEthicsProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B48EE704D2F8A87044C628EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CosmEthicsProjectTests/Pods-CosmEthicsProjectTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8E477CAD50FA05633CDA405 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CosmEthicsProject/Pods-CosmEthicsProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CosmEthicsProject/Pods-CosmEthicsProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E4147F71F7C66F700CE03C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E4148261F7C6E4900CE03C5 /* ImageView.swift in Sources */,
+				5E4148011F7C66F700CE03C5 /* ViewController.swift in Sources */,
+				5E41482E1F7D0E4300CE03C5 /* ProductCell.swift in Sources */,
+				5E4147FF1F7C66F700CE03C5 /* AppDelegate.swift in Sources */,
+				5E4148281F7C6E4900CE03C5 /* ProductView.swift in Sources */,
+				5E4148621F7D3B8500CE03C5 /* ConcernElements.swift in Sources */,
+				5E4148341F7D164500CE03C5 /* RESTAPI.swift in Sources */,
+				5E4148321F7D0F1100CE03C5 /* Product.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E41480B1F7C66F700CE03C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E4148141F7C66F700CE03C5 /* CosmEthicsProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E4148111F7C66F700CE03C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E4147FA1F7C66F700CE03C5 /* CosmEthicsProject */;
+			targetProxy = 5E4148101F7C66F700CE03C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E4148021F7C66F700CE03C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E4148031F7C66F700CE03C5 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		5E4148071F7C66F700CE03C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E4148081F7C66F700CE03C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E4148161F7C66F700CE03C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E4148171F7C66F700CE03C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E4148191F7C66F700CE03C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6443F1BA8A8ED2DB6326CEEC /* Pods-CosmEthicsProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CosmEthicsProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jatoi.CosmEthicsProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5E41481A1F7C66F700CE03C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6480624CC31A5E7C05200683 /* Pods-CosmEthicsProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CosmEthicsProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jatoi.CosmEthicsProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5E41481C1F7C66F700CE03C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E24C96EAAF8E64909A5C15D /* Pods-CosmEthicsProjectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CosmEthicsProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jatoi.CosmEthicsProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CosmEthicsProject.app/CosmEthicsProject";
+			};
+			name = Debug;
+		};
+		5E41481D1F7C66F700CE03C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC2061E03CF8A72DBD6EAD45 /* Pods-CosmEthicsProjectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CosmEthicsProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jatoi.CosmEthicsProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CosmEthicsProject.app/CosmEthicsProject";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E4147F61F7C66F700CE03C5 /* Build configuration list for PBXProject "CosmEthicsProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E4148161F7C66F700CE03C5 /* Debug */,
+				5E4148171F7C66F700CE03C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E4148181F7C66F700CE03C5 /* Build configuration list for PBXNativeTarget "CosmEthicsProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E4148191F7C66F700CE03C5 /* Debug */,
+				5E41481A1F7C66F700CE03C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E41481B1F7C66F700CE03C5 /* Build configuration list for PBXNativeTarget "CosmEthicsProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E41481C1F7C66F700CE03C5 /* Debug */,
+				5E41481D1F7C66F700CE03C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E4147F31F7C66F700CE03C5 /* Project object */;
+}

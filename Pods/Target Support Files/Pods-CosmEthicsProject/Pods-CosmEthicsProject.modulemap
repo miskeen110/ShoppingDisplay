@@ -1,0 +1,6 @@
+framework module Pods_CosmEthicsProject {
+  umbrella header "Pods-CosmEthicsProject-umbrella.h"
+
+  export *
+  module * { export * }
+}
